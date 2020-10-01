@@ -16,10 +16,10 @@ public class In {
 		int mode;
 		System.out.println("***************** 欢迎使用凯撒加密器 *********************");
 		Scanner scan = new Scanner(System.in);
-		System.out.println("请输入模式：\n1.加密\n2.解密\n");
+		System.out.println("请输入模式：\n1.加密\n2.解密\n3.MD5加密(无法解密)");
 		//mode = sc.nextInt();
 		mode = scan.nextInt();
-		if (mode == 1 || mode == 2) {
+		if (mode == 1 || mode == 2 || mode == 3) {
 			return mode;
 		} else {
 			System.out.println("ERROR__模式错误...");

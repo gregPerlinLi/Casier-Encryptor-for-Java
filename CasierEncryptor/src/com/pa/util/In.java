@@ -14,7 +14,7 @@ public class In {
 	
 	public int setMode() {
 		int mode;
-		System.out.println("***************** 欢迎使用凯撒加密器 *********************");
+		System.out.println("---------------------- 欢迎使用凯撒加密器 ----------------------");
 		Scanner scan = new Scanner(System.in);
 		System.out.println("请输入模式：\n1.加密\n2.解密\n3.MD5加密(无法解密)");
 		//mode = sc.nextInt();
@@ -29,7 +29,6 @@ public class In {
 	}
 	
 	public int setKey() {
-		//System.out.println("***************** 欢迎使用凯撒加密器 *********************");
 		System.out.println("请输入一个Caesar数字密钥：");
 		while (true) {
 			Scanner sc = new Scanner(System.in);

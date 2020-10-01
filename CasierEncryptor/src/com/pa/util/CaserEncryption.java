@@ -21,14 +21,14 @@ public class CaserEncryption implements Encryption {
 		//System.out.println(setPlaintext);
 		ciphertext = new char[max];
 		for (int j = 0; j < max; j++) {
-			ciphertext[j] = '★'; // 设置临时变量将数组填充，因明文中可存在' '空，所以需要填充判断
+			ciphertext[j] = '*'; // 设置临时变量将数组填充，因明文中可存在' '空，所以需要填充判断
 		}
 		//System.out.println(ciphertext);
 
 		int temp = 0;
 		
 		for (int i = 0; i < setPlaintext.length; i++) {
-			if (setPlaintext[i] != '★') {
+			if (setPlaintext[i] != '*') {
 				temp = setPlaintext[i] + key;
 				//if (setPlaintext[i] == ' ' || setPlaintext[i] == ',' || setPlaintext[i] == '.' || setPlaintext[i] == '!') {
 				//if (setPlaintext[i]>=' '&&setPlaintext[i]<='/'||setPlaintext[i]>=':'&&setPlaintext[i]<='@'||setPlaintext[i]>='['&&setPlaintext[i]<='`'||setPlaintext[i]>='{'&&setPlaintext[i]<='~') {
@@ -75,7 +75,7 @@ public class CaserEncryption implements Encryption {
 		int temp = 0;
 		for (int i = 0; i < setCiphrttext.length; i++) {
 			temp = setCiphrttext[i] - key;
-			if (setCiphrttext[i] != '★') {
+			if (setCiphrttext[i] != '*') {
 				//if (setCiphrttext[i]>=' '&&setCiphrttext[i]<='/'||setCiphrttext[i]>=':'&&setCiphrttext[i]<='@'||setCiphrttext[i]>='['&&setCiphrttext[i]<='`'||setCiphrttext[i]>='{'&&setCiphrttext[i]<='~') {
 				if (special.isSpecial(setCiphrttext[i]) == true) {
 					c = (char) (setCiphrttext[i]);

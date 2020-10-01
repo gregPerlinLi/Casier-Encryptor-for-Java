@@ -46,7 +46,7 @@ public class In {
 	public char[] getPlaintext() {
 		plaintext = new char[max];
 		for (int j = 0; j < max; j++) {
-			plaintext[j] = '★'; // 设置临时变量将数组填充，因明文中可存在' '空，所以需要填充判断
+			plaintext[j] = '*'; // 设置临时变量将数组填充，因明文中可存在' '空，所以需要填充判断
 		}
 		int i = 0;
 		char ch = ' ';
@@ -82,7 +82,7 @@ public class In {
 	public char[] getCiphertext() {
 		ciphertext = new char[max];
 		for (int j = 0; j < max; j++) {
-			ciphertext[j] = '★'; // 设置临时变量将数组填充，因明文中可存在' '空，所以需要填充判断
+			ciphertext[j] = '*'; // 设置临时变量将数组填充，因明文中可存在' '空，所以需要填充判断
 		}
 		int i = 0;
 		char ch = ' ';

@@ -4,7 +4,7 @@
 
 ## By: -gregPerlinLi-
 
-**==注意(Attention)：本程序使用的是Java15版本，其他Java版本可能无法运行！==**
+## **注意(Attention)：本程序使用的是Java15版本，其他Java版本可能无法运行！**
 
 ### **主要功能**
 

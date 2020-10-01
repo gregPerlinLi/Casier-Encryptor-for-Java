@@ -1,2 +1,24 @@
-# Casier-Encryptor-for-Java
-Encryptor the words by Casier encryption
+# **凯撒加密器（Java版） CasierEncryptor for Java**
+
+## **将输入的文字通过凯撒加密法进行加密**
+
+## By: -gregPerlinLi-
+
+### **主要功能**
+
+1. 可以选择加密模式还是解密模式
+2. 可以自行输入偏移位数
+3. 可对英文以及数字进行加密和解密处理，特殊字符（如空格等）将会保持原样，暂时无法输入汉字
+4. 通过控制台（或终端）进行输入和输出
+
+### **目标**
+
+- [x] 将加密方法写到独立的`class`中
+- [x] 定义`interface`接口类，并提供了加密和解密两种方法
+- [x] 让`CaesarEncryption`实现`Encryption`接口，并在加解密是调用相应的方法
+- [ ] 编写`MD5`的`class`，用于进行`MD5`的加密（`MD5`无法解密）
+- [ ] 在尝试用MD5进行解密时立刻`throw`异常`UnsupportedOperationException`，并附带“`MD5`无法解密”的信息，并对其进行正确的处理
+- [ ] 对程序进行细致的分包
+- [ ] 使用`MySQL`并将加密后的结果保存到`MySQL`中
+- [ ] 开发图形化界面
+

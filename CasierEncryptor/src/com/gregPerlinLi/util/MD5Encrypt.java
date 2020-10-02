@@ -1,4 +1,4 @@
-package com.pa.util;
+package com.gregPerlinLi.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

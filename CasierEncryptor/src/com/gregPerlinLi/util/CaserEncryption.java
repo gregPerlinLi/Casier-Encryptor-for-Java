@@ -1,11 +1,12 @@
-package com.pa.util;
+package com.gregPerlinLi.util;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
-import com.pa.util.In;
-import com.pa.util.Encryption;
-import com.pa.util.Simp;
+
+import com.gregPerlinLi.util.Encryption;
+import com.gregPerlinLi.util.In;
+import com.gregPerlinLi.util.Simp;
 
 public class CaserEncryption implements Encryption {
 	char ciphertext[]; // 密文

@@ -1,4 +1,4 @@
-package com.pa.util;
+package com.gregPerlinLi.util;
 
 public class Out {
 	public void display(StringBuffer text, int mode) {

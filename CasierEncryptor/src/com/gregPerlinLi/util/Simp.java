@@ -1,4 +1,4 @@
-package com.pa.util;
+package com.gregPerlinLi.util;
 
 public class Simp {
 	public boolean isSpecial(char ch) {

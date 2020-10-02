@@ -1,9 +1,11 @@
-import com.pa.util.CaserEncryption;
-import com.pa.util.Encryption;
-import com.pa.util.Out;
-import com.pa.util.In;
-import com.pa.util.MD5Encrypt;
 import java.util.Scanner;
+
+import com.gregPerlinLi.util.CaserEncryption;
+import com.gregPerlinLi.util.Encryption;
+import com.gregPerlinLi.util.In;
+import com.gregPerlinLi.util.MD5Encrypt;
+import com.gregPerlinLi.util.Out;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
